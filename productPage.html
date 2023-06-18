@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mainStyle.css">
+    <title>ApplePrices</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="inner">
+        </div>
+    </div>
+
+    <script>
+        fetch('DB.json')
+            .then(response => response.json())
+            .then(data => {
+                const modelsContainer = document.getElementsByClassName('inner')[0];
+                if (data.IPhone && data.IPhone.length > 0) {
+                    data.IPhone.forEach((item, index) => {
+                        const name = item.model;
+                        const modelDiv = document.createElement('div');
+                        modelDiv.classList.add('item');
+
+                        const image = document.createElement('img');
+                        image.src = 'img/iphone.png';//временно
+                        image.alt = name;
+
+                        const button = document.createElement('button');
+                        button.classList.add('bttn')
+                        button.textContent = name;
+                        
+                        modelDiv.appendChild(image);
+                        modelDiv.appendChild(button);
+                        modelsContainer.appendChild(modelDiv);
+                    });
+                }
+            })
+            .catch(error => console.log(error));
+    </script>
+</body>
+</html>

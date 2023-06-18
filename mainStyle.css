@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    max-width: 390px;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    height: 150px;
+}
+
+.bttn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(255, 222, 50);
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}

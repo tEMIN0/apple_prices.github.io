@@ -1,0 +1,11 @@
+{
+    "IPhone": [
+        {"model": "14 512Gb Starlight","image": "14_stalight" , "priceID1": "smartfon_apple_iphone_14_512gb_starlight"},
+        {"model": "14 256Gb Graphite","image": "14_graphite", "priceID1": "smartfon_apple_iphone_14_256gb_graphite"},
+        {"model": "14 256Gb Blue","image": "14_blue", "priceID1": "smartfon_apple_iphone_14_256gb_blue"},
+        {"model": "14 128Gb Purple","image": "14_purple", "priceID1": "smartfon_apple_iphone_14_128gb_purple"},
+        {"model": "14 128Gb Starlight","image": "14_starlight", "priceID1": "smartfon_apple_iphone_14_128gb_starlight"},
+        {"model": "14 128Gb Blue","image": "14_blue", "priceID1": "smartfon_apple_iphone_14_128gb_blue"},
+        {"model": "14 128Gb Graphite","image": "14_graphite", "priceID1": "smartfon_apple_iphone_14_128gb_graphite"}
+    ]
+}
